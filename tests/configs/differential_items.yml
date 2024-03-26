@@ -70,13 +70,13 @@ differential_items:
   - name: credentials
     with_present: false
     differential_test_items:
-      - name: "cyberark"
+      - name: cyberark
         credential_type: CyberArk Central Credential Provider Lookup
         organization: Default
     expected_test_result:
       - name: gitlab
         organization: Default
-        credential_type: "Source Control"
+        credential_type: Source Control
         state: absent
   #  - name: inventory_sources
   #    with_present: false
@@ -141,4 +141,3 @@ differential_items:
       - name: Simple workflow schema no state defined
         organization: Default
         state: absent
-...

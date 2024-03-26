@@ -41,4 +41,3 @@ controller_inventory_sources:
     source: scm
     state: absent
     # more options can be provided but for scm source we are using, we need only this much.
-...

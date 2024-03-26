@@ -5,4 +5,3 @@ controller_configuration_role_secure_logging: "{{ controller_configuration_secur
 controller_configuration_role_async_retries: "{{ controller_configuration_async_retries | default(30) }}"
 controller_configuration_role_async_delay: "{{ controller_configuration_async_delay | default(1) }}"
 controller_configuration_role_enforce_defaults: "{{ controller_configuration_enforce_defaults | default(false) }}"
-...
